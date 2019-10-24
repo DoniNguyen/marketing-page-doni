@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Prompt', sans-serif;
+}
+html,
+body {
+  background-color: #C192E9;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Righteous', cursive;
+  color: rgba(255, 255, 255, 0.5);
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: #150920;
+}
+h1 {
+  font-size: 4.5rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h3 {
+  font-size: 2.5rem;
+  color: #623A84;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+  color: white;
+}
+.diy {
+  align-content: center;
+  text-align: center;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10rem;
+}
+footer div {
+  font-size: 2rem;
+  margin: 0px 2rem;
+}
+.top {
+  display: flex;
+  margin-bottom: 10rem;
+}
+.top img {
+  width: 60rem;
+  height: 60rem;
+  margin-top: 12rem;
+  object-fit: fill;
+}
+.meet-content {
+  padding-right: 20rem;
+}
+.meet-container {
+  margin-left: 5rem;
+}
+.middle {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.middle img {
+  width: 60rem;
+}
+.middle-container {
+  padding-left: 10rem;
+  padding-right: 6rem;
+  margin-top: 7rem;
+}
+.bottom {
+  display: flex;
+  margin-top: 10rem;
+}
+.bottom img {
+  width: 60rem;
+  height: 50rem;
+  object-fit: cover;
+}
+.bottom-container {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.bottom-content {
+  padding-right: 10rem;
+}
+.top,
+.middle,
+.bottom {
+  justify-content: space-between;
+}
